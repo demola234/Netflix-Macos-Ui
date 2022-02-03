@@ -11,6 +11,17 @@
 		8074835F2787F4ED0041F5EF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8074835E2787F4ED0041F5EF /* ContentView.swift */; };
 		807483612787F4EF0041F5EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 807483602787F4EF0041F5EF /* Assets.xcassets */; };
 		807483642787F4EF0041F5EF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 807483632787F4EF0041F5EF /* Preview Assets.xcassets */; };
+		8074836E2787F5210041F5EF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8074836D2787F5210041F5EF /* HomeView.swift */; };
+		8074837127888A620041F5EF /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8074837027888A620041F5EF /* TabButton.swift */; };
+		807483732788B7020041F5EF /* LeftSideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807483722788B7020041F5EF /* LeftSideView.swift */; };
+		80748376278922C90041F5EF /* MovieModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80748375278922C90041F5EF /* MovieModels.swift */; };
+		80748378278966380041F5EF /* Topbanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80748377278966380041F5EF /* Topbanner.swift */; };
+		8074837A2789AC620041F5EF /* PartyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807483792789AC620041F5EF /* PartyModels.swift */; };
+		8074837C2789AD1D0041F5EF /* PartyCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8074837B2789AD1D0041F5EF /* PartyCards.swift */; };
+		8074837E2789BDA60041F5EF /* WatchedCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8074837D2789BDA60041F5EF /* WatchedCard.swift */; };
+		807483822789D8E10041F5EF /* CircleImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807483812789D8E10041F5EF /* CircleImages.swift */; };
+		807483842789D9420041F5EF /* CenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 807483832789D9420041F5EF /* CenterView.swift */; };
+		80748386278AC0610041F5EF /* RightSideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80748385278AC0610041F5EF /* RightSideView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +32,17 @@
 		807483632787F4EF0041F5EF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		807483652787F4EF0041F5EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		807483662787F4EF0041F5EF /* NetflixUi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NetflixUi.entitlements; sourceTree = "<group>"; };
+		8074836D2787F5210041F5EF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		8074837027888A620041F5EF /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		807483722788B7020041F5EF /* LeftSideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideView.swift; sourceTree = "<group>"; };
+		80748375278922C90041F5EF /* MovieModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModels.swift; sourceTree = "<group>"; };
+		80748377278966380041F5EF /* Topbanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topbanner.swift; sourceTree = "<group>"; };
+		807483792789AC620041F5EF /* PartyModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyModels.swift; sourceTree = "<group>"; };
+		8074837B2789AD1D0041F5EF /* PartyCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyCards.swift; sourceTree = "<group>"; };
+		8074837D2789BDA60041F5EF /* WatchedCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchedCard.swift; sourceTree = "<group>"; };
+		807483812789D8E10041F5EF /* CircleImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImages.swift; sourceTree = "<group>"; };
+		807483832789D9420041F5EF /* CenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterView.swift; sourceTree = "<group>"; };
+		80748385278AC0610041F5EF /* RightSideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightSideView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +75,9 @@
 		8074835B2787F4ED0041F5EF /* NetflixUi */ = {
 			isa = PBXGroup;
 			children = (
+				80748374278922B50041F5EF /* Models */,
+				8074836F27888A490041F5EF /* Component */,
+				8074836C2787F5120041F5EF /* Views */,
 				8074835C2787F4ED0041F5EF /* NetflixUiApp.swift */,
 				8074835E2787F4ED0041F5EF /* ContentView.swift */,
 				807483602787F4EF0041F5EF /* Assets.xcassets */,
@@ -69,6 +94,38 @@
 				807483632787F4EF0041F5EF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8074836C2787F5120041F5EF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8074836D2787F5210041F5EF /* HomeView.swift */,
+				807483722788B7020041F5EF /* LeftSideView.swift */,
+				807483832789D9420041F5EF /* CenterView.swift */,
+				80748385278AC0610041F5EF /* RightSideView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8074836F27888A490041F5EF /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				8074837027888A620041F5EF /* TabButton.swift */,
+				80748377278966380041F5EF /* Topbanner.swift */,
+				8074837B2789AD1D0041F5EF /* PartyCards.swift */,
+				8074837D2789BDA60041F5EF /* WatchedCard.swift */,
+				807483812789D8E10041F5EF /* CircleImages.swift */,
+			);
+			name = Component;
+			sourceTree = "<group>";
+		};
+		80748374278922B50041F5EF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				80748375278922C90041F5EF /* MovieModels.swift */,
+				807483792789AC620041F5EF /* PartyModels.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,8 +197,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8074837E2789BDA60041F5EF /* WatchedCard.swift in Sources */,
+				8074836E2787F5210041F5EF /* HomeView.swift in Sources */,
+				807483822789D8E10041F5EF /* CircleImages.swift in Sources */,
+				8074837127888A620041F5EF /* TabButton.swift in Sources */,
 				8074835F2787F4ED0041F5EF /* ContentView.swift in Sources */,
+				80748378278966380041F5EF /* Topbanner.swift in Sources */,
+				8074837A2789AC620041F5EF /* PartyModels.swift in Sources */,
+				807483842789D9420041F5EF /* CenterView.swift in Sources */,
+				80748386278AC0610041F5EF /* RightSideView.swift in Sources */,
+				8074837C2789AD1D0041F5EF /* PartyCards.swift in Sources */,
 				8074835D2787F4ED0041F5EF /* NetflixUiApp.swift in Sources */,
+				80748376278922C90041F5EF /* MovieModels.swift in Sources */,
+				807483732788B7020041F5EF /* LeftSideView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

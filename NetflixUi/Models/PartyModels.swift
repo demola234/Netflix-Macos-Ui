@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct PartyCard: Identifiable, Hashable {
+struct PartyModels: Identifiable, Hashable {
     var id = UUID().uuidString
     var image: String
     var iconImages1: String

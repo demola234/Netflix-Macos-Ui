@@ -8,7 +8,7 @@
 import SwiftUI
 
 
-struct RightSide: View {
+struct LeftSideView: View {
     var screen = NSScreen.main!.visibleFrame
     var title: String = "Browse"
     var text: String = ""
@@ -130,6 +130,6 @@ struct RightSide: View {
 
 struct RightSide_Previews: PreviewProvider {
     static var previews: some View {
-        RightSide()
+        LeftSideView()
     }
 }
